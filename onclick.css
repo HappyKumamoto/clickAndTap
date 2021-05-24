@@ -1,3 +1,7 @@
 body{
     text-align: center;
+    font-family: sans-serif;
+    color:#FFFFEE;
+    /*background-color: #E9FFA5;*/
+    background: linear-gradient(#6B8E23, #E9FFA5 ) fixed;
 }
