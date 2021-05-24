@@ -18,7 +18,7 @@ function stop() {
     }
   document.body.onclick = null;
 }
-if(confirm('OKを押して10秒経ったと思ったら😊😊😊😊😊😊を押してください。')){
+if(confirm('OKを押して10秒経ったと思ったら🟥🟧🟨🟩🟦🟪を押してください。')){
 　　　　　//confirm関数は、戻り値が意味を持ち、OKを押されるとtrue、キャンセルが押されると
         //falseが返る
   start();
