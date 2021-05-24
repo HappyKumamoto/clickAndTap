@@ -9,11 +9,12 @@ function stop() {
     let currentTime = Date.now();
     let seconds = (currentTime - startTime) / 1000;
     if (9.5 <= seconds && seconds <= 10.5) {
-        displayArea.innerText = `${seconds}秒でした！おめでとう！！
+        displayArea.innerText = `${seconds}秒でした！
+        おめでとうございます！！
         *･゜ﾟ･*:.｡..｡.:*･'v(*ﾟ▽ﾟ*)v'･*:.｡. .｡.:*･゜ﾟ･*`;
     }else{
         displayArea.innerText = `${seconds}秒でした！
-        (*>ω<)おしい！ `;
+        (*>ω<)おしいです！ `;
     }
   document.body.onclick = null;
 }
